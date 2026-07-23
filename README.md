@@ -5,7 +5,7 @@ RFP Wireless Infrastructure
 ### 1. Organization and Project Background
 
 #### What the organization does and who it serves
-* **Xcompanyx** is a shell company that launders money for the Sinaloa Cartel. We sell art.
+* **Xcompanyx** is a shell company that launders money for the Sinaloa Cartel. Art Storage and Sales.
 * **Xcompanyx** needs a new wireless network that provides reliable coverage, strong security, modern performance, centralized management, and support for future growth.
 
 #### The size of the organization and number of users
@@ -93,9 +93,6 @@ RFP Wireless Infrastructure
 #### VLAN integration
 * The new wireless network configuration must be integrated with the companys current VLAN configuration.
 
-#### Monitoring and reporting
-???
-
 #### Support for the expected number of users and devices
 * The new network must be able to support all 754 employees using internet services simultaneously.
 * The new network must be able to support up to 812 devices.
@@ -104,7 +101,10 @@ RFP Wireless Infrastructure
 * The new wireless network must support the expansion of users, devices and geographical coverage.
 
 #### Mandatory and preferred requirements
-???
+* WPA 3 security protocol implementation.
+* No guest network.
+* Must support 754 simultaneous users, and 812 devices.
+* Must be scalable, due to planned expansions.
 
 ### 5. Deliverables
 
@@ -129,11 +129,11 @@ The site survey report must include the following:
 * **Xcompanyx** requires the creation and submission of a network diagram, showcasing the details of the wired and wireless network.
 
 #### Test results
-* All test results are to be documented and submitted 
+* All test results are to be documented and submitted.
 
 #### Administrator guide
 * A document must be delivered explaining the changes which have occured since the integration.
-* This document explains the changes and new expectations of the network administrator.
+* This document explains the changes and new expectations to the network administrator.
 
 #### Support plan
 * A support plan document must be submitted detailing post-launch maintenance, service level agreements and any new technical requirements.
@@ -176,15 +176,36 @@ The site survey report must include the following:
 ### 8. Submission and Terms
 
 #### Submission format and contact information
+* Format: Hardcopy sent by mail
+Contact Information: 
+* Xcompanyx
+* CIO Jonathan Braun
+* Email: jbraun@xcompanyx.com
+* Phone: xxx.xxx.xxxx
+* Mailing Address: 422 Blazeit Road, LA
+All questions must be to submitted to the above email by September 15, 2026
 
 #### Late-submission policy
+* Proposals received after the submission deadline will be considered late and may be disqualified.
 
 #### Confidentiality
+* All information in this RFP and ensuing communications is confidential and intended for the recipient vendor only. 
+* Breach of confidentiality may result in disqualification from bidding, and/or legal action.
 
-#### Support expectations
+#### Pre-implementation support expectations
+* Vendor will provide and assign **Xcompanyx** a project manager
+
+#### Post-implementation support expectations
+* Critical issues: 24x7 support.
+* Low-severity issues: 8am to 5pm support.
 
 #### Change-control process
+* All changes to design, schedule scope or cost after being awarded the contract must follow formal change-control process.
 
 #### Contract duration
-
+* 3 years post completion date.
+Optional renewal
+* Up to two additional years.
+Termination
+* **Xcompanyx** may terminate contract within 90 days written notice.
 
