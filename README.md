@@ -204,8 +204,12 @@ All questions must be to submitted to the above email by September 15, 2026
 
 #### Contract duration
 * 3 years post completion date.
+
 Optional renewal
+
 * Up to two additional years.
+
 Termination
+
 * **Xcompanyx** may terminate contract within 90 days written notice.
 
