@@ -23,10 +23,10 @@ RFP Wireless Infrastructure
 * Having reliable wireless coverage spanning the entire campus, in the context of troubleshooting, testing, and deploying would reduce downtime significantly. This would also greatly lower the risk of productivity and financial loss, due to the relationship between downtime and financial loss.
 
 #### Improved performance and capacity
-* The wireless network must be able to support up to 112 users at once, with consistent strong performance. IT employees must have the capacity to connect to and use the network from anywhere on the **Xcompanyx** campus.
+* The wireless network must be able to support up to 754 users at once, with consistent strong performance. IT employees must have the capacity to connect to and use the network from anywhere on the **Xcompanyx** campus.
 
 #### Stronger security
-* Implementation of security measures on the wireless network is required. 
+* Implementation of security measures on the wireless network.
 
 #### Centralized monitoring and management
 * **XCompanyX** administration and moderation is done through the use of an ADDS deployed on a domain controller.
@@ -39,7 +39,7 @@ RFP Wireless Infrastructure
 
 #### Wireless site survey
 * Prior to any implementations or configurations **Xcompanyx** requires a site survey done by a technician. The technician will collaborate with an IT employee, chosen by the **Xcompanyx** CIO, to determine the best fit for our campus environment.
-* This will include access point placement, installation and configuration, integration with existing wired network, security configurations, testing and validation, documentation, basic maintenance, and expectations of support.
+* This will include a signal strength heat map, access point placement, installation and configuration, integration with existing wired network, security configurations, testing and validation, documentation, basic maintenance, and expectations of support.
 
 #### Access point placement
 * Access point placement should be determined through the use of a heat map, of which would be produced during the site survey.
@@ -93,17 +93,24 @@ RFP Wireless Infrastructure
 ???
 
 #### Monitoring and reporting
-
+???
 
 #### Support for the expected number of users and devices
+* The new network must be able to support all 754 employees using internet services simultaneously.
+* The new network must be able to support up to 812 devices.
 
 #### Scalability
+* The new wireless network must support the expansion of users, devices and geographical coverage.
 
 #### Mandatory and preferred requirements
+???
 
 ### 5. Deliverables
 
 #### Site survey report
+The site survey report must include the following:
+* Heat map representing signal strength.
+* 
 
 #### Wireless network design
 
