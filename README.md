@@ -29,7 +29,7 @@ RFP Wireless Infrastructure
 * Implementation of security measures on the wireless network.
 
 #### Centralized monitoring and management
-* **XCompanyX** administration and moderation is done through the use of an ADDS deployed on a domain controller.
+* **XCompanyX** administration is done through the use of an ADDS deployed on a domain controller.
 * The new wireless network must support centralized administration through the use of an ADDS on the **Xcompanyx** domain 'xcomx'.
 
 #### Support for future growth
@@ -164,7 +164,14 @@ The site survey report must include the following:
 ### 7. Evaluation Criteria
 
 #### Create a weighted evaluation table that totals 100 percent
-| Header 1 | Weight |
+| Catagory | Weight |
+| --- | --- |
+| Technical solution | 35% |
+| Security | 25% |
+| Implementation plan | 15% |
+| Vendor experience | 10% |
+| Pricing | 15% |
+| Total | 100% |
 
 ### 8. Submission and Terms
 
