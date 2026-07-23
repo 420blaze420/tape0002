@@ -13,7 +13,7 @@ RFP Wireless Infrastructure
  Stronger security
  Centralized monitoring and management
  Support for future growth
-#### 3. 3. Scope of Work
+#### 3. Scope of Work
  Wireless site survey
  Access point placement
  Installation and configuration
@@ -22,7 +22,7 @@ RFP Wireless Infrastructure
  Testing and validation
  Documentation
  Basic maintenance and support expectations
-4. 4. Technical Requirements
+#### 4. Technical Requirements
  Wi-Fi 6 or newer
  WPA3
 NSA-590 – Technical Writing and Documentation | Assignment 4 | Victor Chavez | v1.0 | July 20, 2026
@@ -32,7 +32,7 @@ NSA-590 – Technical Writing and Documentation | Assignment 4 | Victor Chavez |
  Support for the expected number of users and devices
  Scalability
  Mandatory and preferred requirements
-5. 5. Deliverables
+##### 5. Deliverables
  Site survey report
  Wireless network design
  Installed and configured access points
@@ -40,16 +40,16 @@ NSA-590 – Technical Writing and Documentation | Assignment 4 | Victor Chavez |
  Test results
  Administrator guide
  Support plan
-6. 6. Timeline and Pricing
+###### 6. Timeline and Pricing
  Proposal deadline
  Vendor selection date
  Project start date
  Installation and testing period
  Project completion date
  Initial costs and ongoing costs
-7. 7. Evaluation Criteria
+####### 7. Evaluation Criteria
  Create a weighted evaluation table that totals 100 percent
-8. 8. Submission and Terms
+######## 8. Submission and Terms
  Submission format and contact information
  Late-submission policy
  Confidentiality
