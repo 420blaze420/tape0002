@@ -59,6 +59,7 @@ RFP Wireless Infrastructure
 
 #### Testing and validation
 * Technicians must complete and document a series of network tests, validating successful implementation and integration of the wireless network.
+* Documentations must be completed on the comprehensive 'Testing & Validation' document/form.
 
 #### Documentation
 
@@ -66,6 +67,7 @@ RFP Wireless Infrastructure
 * A comprehensive document covering the entire proccess of installation, configuration, and integration with the current wired network.
 * A comprehensive document covering expected basic maintenance is required.
 * A comprehensive document covering future support expectations is required.
+* A comprehensive document covering covering testing and validation results is required
 
 #### Basic maintenance and support expectations
 * The technician(s) that installed, configured, and integrated the wireless network with the wired network must also complete and submit a document covering expected maintenance, and a seperate document covering expectations for future support.
