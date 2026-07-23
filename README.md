@@ -39,7 +39,7 @@ RFP Wireless Infrastructure
 
 #### Wireless site survey
 * Prior to any implementations or configurations **Xcompanyx** requires a site survey done by a technician. The technician will collaborate with an IT employee, chosen by the **Xcompanyx** CIO, to determine the best fit for our campus environment.
-* This will include a signal strength heat map, access point placement, installation and configuration, integration with existing wired network, security configurations, testing and validation, documentation, basic maintenance, and expectations of support.
+* This will include a signal strength heat map, access point placement, installation and configuration, integration with existing wired network, security configurations, documentation, expected basic maintenance, and expectations of support.
 
 #### Access point placement
 * Access point placement should be determined through the use of a heat map, of which would be produced during the site survey.
@@ -69,6 +69,7 @@ RFP Wireless Infrastructure
 * A comprehensive document titled 'Basic Maintenance' covering expected basic maintenance is required.
 * A comprehensive document titled 'Support Expectations' covering future support expectations is required.
 * A comprehensive document titled 'Testing & Validation' covering covering testing and validation results is required
+* A comprehensive document titled 'Site Survey'. For more details, see '5.Deliverables > Site survey report'
 
 #### Basic maintenance and support expectations
 * The technician(s) that installed, configured, and integrated the wireless network with the wired network must also complete and submit a document covering expected maintenance, and a seperate document covering expectations for future support.
@@ -90,7 +91,7 @@ RFP Wireless Infrastructure
 * No guest users will be permitted on the network. 
 
 #### VLAN integration
-???
+* The new wireless network configuration must be integrated with the companys current VLAN configuration.
 
 #### Monitoring and reporting
 ???
@@ -110,45 +111,73 @@ RFP Wireless Infrastructure
 #### Site survey report
 The site survey report must include the following:
 * Heat map representing signal strength.
-* 
+* Access point placement recommendations.
+* Installation and configuration recommendations.
+* Integration recommendations.
+* Security recommendations.
+* Expected maintenance.
+* Support expectations.
 
 #### Wireless network design
+* **Xcompanyx** requires the creation and submission of a wireless network diagram, showcasing the details of the network.
 
 #### Installed and configured access points
+* Access points will be installed in the designated areas determined by the signal strength heat map.
+* Access points will be placed in a manner of which increases signal strength in low signal strength areas.
 
 #### Network diagram
+* **Xcompanyx** requires the creation and submission of a network diagram, showcasing the details of the wired and wireless network.
 
 #### Test results
+* All test results are to be documented and submitted 
 
 #### Administrator guide
+* A document must be delivered explaining the changes which have occured since the integration.
+* This document explains the changes and new expectations of the network administrator.
 
- Support plan
+#### Support plan
+* A support plan document must be submitted detailing post-launch maintenance, service level agreements and any new technical requirements.
 
 ### 6. Timeline and Pricing
 
- Proposal deadline
+#### Proposal deadline
+* September 15, 2026
 
- Vendor selection date
+#### Vendor selection date
+* October 10, 2026
 
- Project start date
+#### Project start date
+* November 1, 2026
 
- Installation and testing period
+#### Installation and testing period
+* November 1, 2026 - January 15, 2027
 
- Project completion date
+#### Project completion date
+* January 16, 2026
 
- Initial costs and ongoing costs
+#### Initial costs 
+* Approximately $343,000
+
+#### Ongoing costs
+* Approximately $54,000
 
 ### 7. Evaluation Criteria
 
- Create a weighted evaluation table that totals 100 percent
+#### Create a weighted evaluation table that totals 100 percent
+| Header 1 | Weight |
 
 ### 8. Submission and Terms
 
- Submission format and contact information
- Late-submission policy
- Confidentiality
- Support expectations
- Change-control process
- Contract duration
+#### Submission format and contact information
+
+#### Late-submission policy
+
+#### Confidentiality
+
+#### Support expectations
+
+#### Change-control process
+
+#### Contract duration
 
 
