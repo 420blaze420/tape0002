@@ -53,6 +53,7 @@ RFP Wireless Infrastructure
 * The new wireless network must be integrated with the current wired network, supporting communication between wired and wireless users.
 
 #### Security configuration
+* Must implement WPA 3 security protocol on the new wireless network.
 * The new wireless network must be integrated with the current wired network to support security concerns regarding communications or company data leaking out of the domain.
 * Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections.
 * Must complete a series of network tests to validate whether or not it was a successful deployment.
@@ -64,10 +65,10 @@ RFP Wireless Infrastructure
 #### Documentation
 
 ##### List of required documents.
-* A comprehensive document covering the entire proccess of installation, configuration, and integration with the current wired network.
-* A comprehensive document covering expected basic maintenance is required.
-* A comprehensive document covering future support expectations is required.
-* A comprehensive document covering covering testing and validation results is required
+* A comprehensive document titled 'Installation, Configuration, and Integration' covering the entire proccess of installation, configuration, and integration with the current wired network.
+* A comprehensive document titled 'Basic Maintenance' covering expected basic maintenance is required.
+* A comprehensive document titled 'Support Expectations' covering future support expectations is required.
+* A comprehensive document titled 'Testing & Validation' covering covering testing and validation results is required
 
 #### Basic maintenance and support expectations
 * The technician(s) that installed, configured, and integrated the wireless network with the wired network must also complete and submit a document covering expected maintenance, and a seperate document covering expectations for future support.
@@ -76,14 +77,23 @@ RFP Wireless Infrastructure
 ### 4. Technical Requirements
 
 #### Wi-Fi 6 or newer
+* **Xcompanyx** at minimum requires a wireless network that supports Wi-Fi 6 technology.
+* Typical business operations require very fast speeds to ensure customer satisfaction.
+* Company executives are concerned a wireless network will 'produce poor results' compared to the wired network.
 
 #### WPA3
+* Implement WPA 3 security protocol technologies on the new wireless network. 
 
 #### Guest network isolation
+* A subnet for guest users will not be necessary.
+* Due to the risk associated with our business operations, only employees who require access will receive access.
+* No guest users will be permitted on the network. 
 
 #### VLAN integration
+???
 
 #### Monitoring and reporting
+
 
 #### Support for the expected number of users and devices
 
