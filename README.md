@@ -1,18 +1,19 @@
 # tape0002
 
+
 RFP Wireless Infrastructure
 
 ### 1. Organization and Project Background
 
 #### What the organization does and who it serves
-* **Xcompanyx** is a shell company that launders money for the Sinaloa Cartel. Art Storage and Sales.
+* **Xcompanyx** does Art Storage and Sales.
 * **Xcompanyx** needs a new wireless network that provides reliable coverage, strong security, modern performance, centralized management, and support for future growth.
 
 #### The size of the organization and number of users
 * 1442 employees, 754 employees using internet services, 112 IT employees.
 
 #### Why the new wireless network is required
-* **Xcompanyx** has expanded its campus, and employees are spread far and wide accross the company campus. A new wireless network would support troubleshooting, testing, and deployment of internal network configurations across the campus. The ability to connect to a wireless network anywhere accross the campus will increase efficiency and lower down time, in regaurd to troubleshooting, testing, and new configuration deployments.
+* **Xcompanyx** has expanded its campus, and employees are spread far and wide across the company campus. A new wireless network would support troubleshooting, testing, and deployment of internal network configurations across the campus. The ability to connect to a wireless network anywhere accross the campus will increase efficiency and lower down time, in regard to troubleshooting, testing, and new configuration deployments.
 
 #### Current problems or limitations
 * Due to the lack of a wireless network, **Xcompanyx** IT employees must use a physical ethernet connection for troubleshooting, testing, and deploying. Since the expansion of our company campus, IT employees have been limited in their abilities to troubleshoot, test, and deploy internal network configurations around the expansion. 
@@ -23,17 +24,22 @@ RFP Wireless Infrastructure
 * Having reliable wireless coverage spanning the entire campus, in the context of troubleshooting, testing, and deploying would reduce downtime significantly. This would also greatly lower the risk of productivity and financial loss, due to the relationship between downtime and financial loss.
 
 #### Improved performance and capacity
-* The wireless network must be able to support up to 754 users at once, with consistent strong performance. IT employees must have the capacity to connect to and use the network from anywhere on the **Xcompanyx** campus.
+* The wireless network must be able to support up to 754 users at once, with consistent strong performance.
+* IT employees must have the capacity to connect to and use the network from anywhere on the **Xcompanyx** campus.
 
 #### Stronger security
 * Implementation of security measures on the wireless network.
+* Must implement WPA3 security with 802.1X authentication on the new wireless network.
+* Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections.
+
+
 
 #### Centralized monitoring and management
 * **XCompanyX** administration is done through the use of an ADDS deployed on a domain controller.
 * The new wireless network must support centralized administration through the use of an ADDS on the **Xcompanyx** domain 'xcomx'.
 
 #### Support for future growth
-* The wireless network must be installed with future growth in mind. **Xcompanyx** is one of the fastest growing companys in North America, and the network infrastructure must be able to support future expansions, changes, and additions.
+* The wireless network must be installed with future growth in mind. **Xcompanyx** is one of the fastest growing companies in North America, and the network infrastructure must be able to support future expansions, changes, and additions.
 
 ### 3. Scope of Work
 
@@ -43,17 +49,20 @@ RFP Wireless Infrastructure
 
 #### Access point placement
 * Access point placement should be determined through the use of a heat map, of which would be produced during the site survey.
+* Access points must support Wi-Fi 6 technology at minimum, and support options for future expansion; Wi-Fi6E or Wi-Fi7 readiness.
+* Expected indoor coverage: 100%
+* Expected outdoor coverage: 95%
 
 #### Installation and configuration
 * **Xcompanyx** can spare a maximum of 4 IT employees to help install the new wired network and complete configurations.
 * The bulk of the installation and configurations must **NOT** be done by **Xcompanyx** IT employees.
-* IT employees designated to 'help' are there too support an efficient deployment and integration of the new wired network, **NOT** do all of the technicians work for them.
+* IT employees designated to 'help' are there to support an efficient deployment and integration of the new wired network, **NOT** do all of the technicians work for them.
   
 #### Integration with the existing wired network
 * The new wireless network must be integrated with the current wired network, supporting communication between wired and wireless users.
 
 #### Security configuration
-* Must implement WPA 3 security protocol on the new wireless network.
+* Must implement WPA3 security with 802.1X authentication on the new wireless network.
 * The new wireless network must be integrated with the current wired network to support security concerns regarding communications or company data leaking out of the domain.
 * Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections.
 * Must complete a series of network tests to validate whether or not it was a successful deployment.
@@ -65,14 +74,15 @@ RFP Wireless Infrastructure
 #### Documentation
 
 ##### List of required documents.
-* A comprehensive document titled 'Installation, Configuration, and Integration' covering the entire proccess of installation, configuration, and integration with the current wired network.
+* A comprehensive document titled 'Installation, Configuration, and Integration' covering the entire process of installation, configuration, and integration with the current wired network.
 * A comprehensive document titled 'Basic Maintenance' covering expected basic maintenance is required.
 * A comprehensive document titled 'Support Expectations' covering future support expectations is required.
 * A comprehensive document titled 'Testing & Validation' covering covering testing and validation results is required
 * A comprehensive document titled 'Site Survey'. For more details, see '5.Deliverables > Site survey report'
 
 #### Basic maintenance and support expectations
-* The technician(s) that installed, configured, and integrated the wireless network with the wired network must also complete and submit a document covering expected maintenance, and a seperate document covering expectations for future support.
+* Require a post installation meeting where project manager can explain and discuss the installation with CIO, and other IT employees.
+* The technician(s) that installed, configured, and integrated the wireless network with the wired network must also complete and submit a document covering expected maintenance, and a separate document covering expectations for future support.
 * **Xcompanyx** intends on future expansions to the company and company campus and expects a configuration that supports user and geographical growth.
 
 ### 4. Technical Requirements
@@ -83,7 +93,8 @@ RFP Wireless Infrastructure
 * Company executives are concerned a wireless network will 'produce poor results' compared to the wired network.
 
 #### WPA3
-* Implement WPA 3 security protocol technologies on the new wireless network. 
+* Must implement WPA3 security with 802.1X authentication on the new wireless network.
+
 
 #### Guest network isolation
 * A subnet for guest users will not be necessary.
@@ -91,7 +102,8 @@ RFP Wireless Infrastructure
 * No guest users will be permitted on the network. 
 
 #### VLAN integration
-* The new wireless network configuration must be integrated with the companys current VLAN configuration.
+* Multiple network segmentations exist seperating departments via VLANs.
+* The new wireless network configuration must be integrated with the company's current VLAN configuration.
 
 #### Support for the expected number of users and devices
 * The new network must be able to support all 754 employees using internet services simultaneously.
@@ -99,6 +111,7 @@ RFP Wireless Infrastructure
 
 #### Scalability
 * The new wireless network must support the expansion of users, devices and geographical coverage.
+* Option to increase number of access points without controller replacement.
 
 #### Mandatory and preferred requirements
 * WPA 3 security protocol implementation.
@@ -132,7 +145,7 @@ The site survey report must include the following:
 * All test results are to be documented and submitted.
 
 #### Administrator guide
-* A document must be delivered explaining the changes which have occured since the integration.
+* A document must be delivered explaining the changes which have occurred since the integration.
 * This document explains the changes and new expectations to the network administrator.
 
 #### Support plan
@@ -153,7 +166,7 @@ The site survey report must include the following:
 * November 1, 2026 - January 15, 2027
 
 #### Project completion date
-* January 16, 2026
+* January 16, 202
 
 #### Initial costs 
 * Approximately $343,000
@@ -166,10 +179,11 @@ The site survey report must include the following:
 #### Create a weighted evaluation table that totals 100 percent
 | Catagory | Weight |
 | --- | --- |
-| Technical solution | 35% |
-| Security | 25% |
+| Design quality | 25% |
+| Security | 20% |
 | Implementation plan | 15% |
 | Vendor experience | 10% |
+| Scalability| 15% |
 | Pricing | 15% |
 | Total | 100% |
 
@@ -178,7 +192,7 @@ The site survey report must include the following:
 #### Submission format and contact information
 * Format: Hardcopy sent by mail
 Contact Information: 
-* Xcompanyx
+* **Xcompanyx**
 * CIO Jonathan Braun
 * Email: jbraun@xcompanyx.com
 * Phone: xxx.xxx.xxxx
@@ -200,7 +214,7 @@ All questions must be to submitted to the above email by September 15, 2026
 * Low-severity issues: 8am to 5pm support.
 
 #### Change-control process
-* All changes to design, schedule scope or cost after being awarded the contract must follow formal change-control process.
+* All changes to design, schedule scope or cost after being awarded the contract must follow a formal change-control process.
 
 #### Contract duration
 * 3 years post completion date.
@@ -211,5 +225,7 @@ Optional renewal
 
 Termination
 
-* **Xcompanyx** may terminate contract within 90 days written notice.
+* **Xcompanyx** may terminate the contract within 90 days' written notice.
+
+
 
