@@ -1,7 +1,4 @@
-# tape0002
-
-
-RFP Wireless Infrastructure
+# RFP Wireless Infrastructure
 
 ### 1. Organization and Project Background
 
