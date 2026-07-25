@@ -50,8 +50,7 @@ RFP Wireless Infrastructure
 #### Stronger security
 * Must implement WPA3 security with a RADIUS server for 802.1X authentication of all users and devices on the new wireless network.
 * RADIUS server must be integrated with existing architecture and support ADDS for policy enforcement.
-* Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections.
-* 
+* Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections. 
 
 #### Centralized monitoring and management
 * **XCompanyx** administration is done through the use of an ADDS deployed on a domain controller.
@@ -79,7 +78,7 @@ RFP Wireless Infrastructure
   
 #### Integration with the existing wired network
 * The new wireless network must be integrated with the current wired network, supporting communication between wired and wireless users.
-* Must design, install, configure, and integrate a RADIUS server with LAN controller and/or access points to support 802.1x authentication.
+* Must design, install, configure, and integrate a RADIUS server with LAN controller and/or access points to support 802.1X authentication.
 
 #### Security configuration
 * Must implement WPA3 security with a RADIUS server to support 802.1X authentication and authorization for all users on the new wireless network.
@@ -129,7 +128,7 @@ RFP Wireless Infrastructure
 * Option to increase number of access points without controller replacement.
 
 #### Mandatory and preferred requirements
-* Implementation of WPA3 security with 802.1x authentication and a RADIUS server.
+* Implementation of WPA3 security with 802.1X authentication and a RADIUS server.
 * No guest network.
 * Must support 1256 simultaneous users, and at minimum 3000 devices.
 * Must be scalable, due to planned expansions.
@@ -173,7 +172,7 @@ The site survey report must include the following:
 #### Administrator guide
 * A document titled 'Administrator guide' must be delivered explaining the changes which have occurred since the integration.
 * This document explains the changes and new expectations to the network administrator.
-* This document should include but is not limited too WPA3, 802.1x authentication, RADIUS server, access points, integration, wireless coverage statistics,
+* This document should include but is not limited too WPA3, 802.1X authentication, RADIUS server, access points, integration, wireless coverage statistics,
 
 #### Support plan
 * A support plan document must be submitted detailing post-launch maintenance, service level agreements and any new technical requirements.
@@ -217,11 +216,11 @@ The site survey report must include the following:
 ### 8. Submission and Terms
 
 #### Submission format and contact information
-* Format: Hardcopy via mail services.
+* Format: Hardcopy by mail services.
 
-* Submissions may be sent via mail.
+* Submissions may be sent by mail.
 
-* Questions may be submitted via mail or our public email.
+* Questions may be submitted by mail or our public email.
 
 * All submissions must be to submitted by September 15, 2026
 
