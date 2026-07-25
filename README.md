@@ -10,7 +10,7 @@ RFP Wireless Infrastructure
 
  <img width="2133" height="1200" alt="Xcompanyx CAMPUS" src="https://github.com/user-attachments/assets/8f2e137e-6799-41d4-ad55-e19eef83bb25" />
 
-Aerial photo of **Xcompanyx** campus post expansion. 2026.07.11 
+Aerial photo of **Xcompanyx** campus post expansion.
 
 * **Xcompanyx** has 13 separate departments.
   * Executive
