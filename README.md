@@ -6,11 +6,30 @@ RFP Wireless Infrastructure
 ### 1. Organization and Project Background
 
 #### What the organization does and who it serves
-* **Xcompanyx** does Art Storage and Sales.
+* **Xcompanyx** is a specialized art storage and brokerage firm that integrates secure, climate-controlled warehousing with full-service commercial sales support. We work with collectors, galleries, and investors, to safely store high-value artworks while also facilitating private viewings, and managing sales. By combining reliable storage with active market support, **XcompanyX** provides a streamlined solution for clients looking to both protect and manage the value of their art collections.
+
+* **Xcompanyx** has 13 seperate departments.
+  * Executive
+  * Sales
+  * Customer service
+  * Warehouse management
+  * Security
+  * IT
+  * Conservation & preservation
+  * Finance
+  * HR
+  * Legal & compliance
+  * Marketing & public relations
+  * Logistics & shipping
+  * Facility maintenance
+  
 * **Xcompanyx** needs a new wireless network that provides reliable coverage, strong security, modern performance, centralized management, and support for future growth.
 
 #### The size of the organization and number of users
-* 1442 employees, 754 employees using internet services, 112 IT employees.
+* 1442 employees, 1256 employees using internet services, 86 IT employees.
+* Employees require network access across the campus to support daily business operations, including but not limited too asset management and client service.
+* Some employees need full internet access, while others might only need access to internal applications such as POS or shared terminals.
+* The design must support role based access, and a seperation of departments in support of protecting sensitive client and inventory data.
 
 #### Why the new wireless network is required
 * **Xcompanyx** has expanded its campus, and employees are spread far and wide across the company campus. A new wireless network would support troubleshooting, testing, and deployment of internal network configurations across the campus. The ability to connect to a wireless network anywhere accross the campus will increase efficiency and lower down time, in regard to troubleshooting, testing, and new configuration deployments.
@@ -21,18 +40,17 @@ RFP Wireless Infrastructure
 ### 2. Project Objectives
 
 #### Reliable wireless coverage
-* Having reliable wireless coverage spanning the entire campus, in the context of troubleshooting, testing, and deploying would reduce downtime significantly. This would also greatly lower the risk of productivity and financial loss, due to the relationship between downtime and financial loss.
+* Reliable wireless coverage should span the entire campus.
+* For IT operations such as troubleshooting, testing, and deploying this would reduce downtime significantly. This would also greatly lower the risk of productivity and financial loss, due to the relationship between downtime and financial loss.
 
 #### Improved performance and capacity
-* The wireless network must be able to support up to 754 users at once, with consistent strong performance.
+* The wireless network must be able to support at least 1256 users at once, with consistent strong performance.
 * IT employees must have the capacity to connect to and use the network from anywhere on the **Xcompanyx** campus.
 
 #### Stronger security
-* Implementation of security measures on the wireless network.
 * Must implement WPA3 security with 802.1X authentication on the new wireless network.
 * Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections.
-
-
+* RADIUS SERVER
 
 #### Centralized monitoring and management
 * **XCompanyX** administration is done through the use of an ADDS deployed on a domain controller.
@@ -44,8 +62,8 @@ RFP Wireless Infrastructure
 ### 3. Scope of Work
 
 #### Wireless site survey
-* Prior to any implementations or configurations **Xcompanyx** requires a site survey done by a technician. The technician will collaborate with an IT employee, chosen by the **Xcompanyx** CIO, to determine the best fit for our campus environment.
-* This will include a signal strength heat map, access point placement, installation and configuration, integration with existing wired network, security configurations, documentation, expected basic maintenance, and expectations of support.
+* Prior to any implementations or configurations **Xcompanyx** requires a site survey done by the project manager. They will collaborate with an IT employee, chosen by the **Xcompanyx** CIO, to determine the best fit for our campus environment.
+* The site survey document should include a signal strength heat map, access point placement, installation and configuration recommendations, integration with existing wired network, security configurations, expected basic maintenance, and expectations of support.
 
 #### Access point placement
 * Access point placement should be determined through the use of a heat map, of which would be produced during the site survey.
@@ -54,9 +72,9 @@ RFP Wireless Infrastructure
 * Expected outdoor coverage: 95%
 
 #### Installation and configuration
-* **Xcompanyx** can spare a maximum of 4 IT employees to help install the new wired network and complete configurations.
-* The bulk of the installation and configurations must **NOT** be done by **Xcompanyx** IT employees.
-* IT employees designated to 'help' are there to support an efficient deployment and integration of the new wired network, **NOT** do all of the technicians work for them.
+* **Xcompanyx** can spare a maximum of 4 IT employees to help the project manager make determinations regarding the wireless network and complete configurations.
+* The installation and configurations must **NOT** be done by **Xcompanyx** IT employees.
+* IT employees designated to 'help' are there to support an efficient deployment and integration of the new wired network, **NOT** do the project managers work for them.
   
 #### Integration with the existing wired network
 * The new wireless network must be integrated with the current wired network, supporting communication between wired and wireless users.
@@ -66,6 +84,7 @@ RFP Wireless Infrastructure
 * The new wireless network must be integrated with the current wired network to support security concerns regarding communications or company data leaking out of the domain.
 * Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections.
 * Must complete a series of network tests to validate whether or not it was a successful deployment.
+* RADIUS
 
 #### Testing and validation
 * Technicians must complete and document a series of network tests, validating successful implementation and integration of the wireless network.
@@ -77,12 +96,13 @@ RFP Wireless Infrastructure
 * A comprehensive document titled 'Installation, Configuration, and Integration' covering the entire process of installation, configuration, and integration with the current wired network.
 * A comprehensive document titled 'Basic Maintenance' covering expected basic maintenance is required.
 * A comprehensive document titled 'Support Expectations' covering future support expectations is required.
-* A comprehensive document titled 'Testing & Validation' covering covering testing and validation results is required
+* A comprehensive document titled 'Testing & Validation' covering troubleshooting, testing and validation results is required.
 * A comprehensive document titled 'Site Survey'. For more details, see '5.Deliverables > Site survey report'
+* A comprehensive document titles 'Administrator guide' covering changes and new expectations of the wireless network to the network administrator.
 
 #### Basic maintenance and support expectations
 * Require a post installation meeting where project manager can explain and discuss the installation with CIO, and other IT employees.
-* The technician(s) that installed, configured, and integrated the wireless network with the wired network must also complete and submit a document covering expected maintenance, and a separate document covering expectations for future support.
+* Project manager must complete and submit a document covering expected maintenance, and a separate document covering expectations for future support.
 * **Xcompanyx** intends on future expansions to the company and company campus and expects a configuration that supports user and geographical growth.
 
 ### 4. Technical Requirements
@@ -94,7 +114,7 @@ RFP Wireless Infrastructure
 
 #### WPA3
 * Must implement WPA3 security with 802.1X authentication on the new wireless network.
-
+* RADIUS
 
 #### Guest network isolation
 * A subnet for guest users will not be necessary.
@@ -106,17 +126,17 @@ RFP Wireless Infrastructure
 * The new wireless network configuration must be integrated with the company's current VLAN configuration.
 
 #### Support for the expected number of users and devices
-* The new network must be able to support all 754 employees using internet services simultaneously.
-* The new network must be able to support up to 812 devices.
+* The new network must be able to support all 1256 employees using internet services simultaneously.
+* The new network must be able to support at least 3000 devices.
 
 #### Scalability
 * The new wireless network must support the expansion of users, devices and geographical coverage.
 * Option to increase number of access points without controller replacement.
 
 #### Mandatory and preferred requirements
-* WPA 3 security protocol implementation.
+* Implementation of WPA3 security with 802.1x authentication and a RADIUS server.
 * No guest network.
-* Must support 754 simultaneous users, and 812 devices.
+* Must support 1256 simultaneous users, and at minimum 3000 devices.
 * Must be scalable, due to planned expansions.
 
 ### 5. Deliverables
@@ -135,17 +155,18 @@ The site survey report must include the following:
 * **Xcompanyx** requires the creation and submission of a wireless network diagram, showcasing the details of the network.
 
 #### Installed and configured access points
-* Access points will be installed in the designated areas determined by the signal strength heat map.
+* Access points will be installed in designated areas around the campus to support 100% indoor coverage and at minimum 95% outdoor coverage.
+* Designated areas will be determined through the use a signal strength heat map under the project managers discretion.
 * Access points will be placed in a manner of which increases signal strength in low signal strength areas.
 
 #### Network diagram
 * **Xcompanyx** requires the creation and submission of a network diagram, showcasing the details of the wired and wireless network.
 
 #### Test results
-* All test results are to be documented and submitted.
+* All test results are to be documented and submitted within the 'Testing & Validation' document.
 
 #### Administrator guide
-* A document must be delivered explaining the changes which have occurred since the integration.
+* A document titled 'Administrator guide' must be delivered explaining the changes which have occurred since the integration.
 * This document explains the changes and new expectations to the network administrator.
 
 #### Support plan
