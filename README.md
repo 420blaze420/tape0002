@@ -9,7 +9,8 @@ RFP Wireless Infrastructure
 * **Xcompanyx** is a specialized art storage and brokerage firm that integrates secure, climate-controlled warehousing with full-service commercial sales support. We work with collectors, galleries, and investors, to safely store high-value artworks while also facilitating private viewings, and managing sales. By combining reliable storage with active market support, **Xcompanyx** provides a streamlined solution for clients looking to both protect and manage the value of their art collections.
 
  <img width="2133" height="1200" alt="Xcompanyx CAMPUS" src="https://github.com/user-attachments/assets/8f2e137e-6799-41d4-ad55-e19eef83bb25" />
-Aerial photo of **Xcompanyx** campus. 2025.07.11 
+
+Aerial photo of **Xcompanyx** campus post expansion. 2026.07.11 
 
 * **Xcompanyx** has 13 separate departments.
   * Executive
