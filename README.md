@@ -48,9 +48,10 @@ RFP Wireless Infrastructure
 * IT employees must have the capacity to connect to and use the network from anywhere on the **Xcompanyx** campus.
 
 #### Stronger security
-* Must implement WPA3 security with 802.1X authentication on the new wireless network.
+* Must implement WPA3 security with a RADIUS server for 802.1X authentication of all users and devices on the new wireless network.
+* RADIUS server must be integrated with existing architecture and support ADDS for policy enforcement.
 * Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections.
-* RADIUS SERVER
+* 
 
 #### Centralized monitoring and management
 * **XCompanyX** administration is done through the use of an ADDS deployed on a domain controller.
@@ -78,27 +79,19 @@ RFP Wireless Infrastructure
   
 #### Integration with the existing wired network
 * The new wireless network must be integrated with the current wired network, supporting communication between wired and wireless users.
+* Must design, install, configure, and integrate a RADIUS server with LAN controller and/or access points to support 802.1x authentication.
 
 #### Security configuration
-* Must implement WPA3 security with 802.1X authentication on the new wireless network.
+* Must implement WPA3 security with a RADIUS server to support 802.1X authentication and authorization for all users on the new wireless network.
+* RADIUS should authenticate users with the ADDS 'xcomx' domain.
+* Implementation of role-based access, enforced by assigning users to appropriate department VLAN or enforcing access control lists via ADDS 'xcomx' domain.
 * The new wireless network must be integrated with the current wired network to support security concerns regarding communications or company data leaking out of the domain.
 * Integration of a new firewall, or configuration of the old firewall to support wired and wireless protections.
 * Must complete a series of network tests to validate whether or not it was a successful deployment.
-* RADIUS
 
 #### Testing and validation
 * Technicians must complete and document a series of network tests, validating successful implementation and integration of the wireless network.
 * Documentations must be completed on the comprehensive 'Testing & Validation' document/form.
-
-#### Documentation
-
-##### List of required documents.
-* A comprehensive document titled 'Installation, Configuration, and Integration' covering the entire process of installation, configuration, and integration with the current wired network.
-* A comprehensive document titled 'Basic Maintenance' covering expected basic maintenance is required.
-* A comprehensive document titled 'Support Expectations' covering future support expectations is required.
-* A comprehensive document titled 'Testing & Validation' covering troubleshooting, testing and validation results is required.
-* A comprehensive document titled 'Site Survey'. For more details, see '5.Deliverables > Site survey report'
-* A comprehensive document titles 'Administrator guide' covering changes and new expectations of the wireless network to the network administrator.
 
 #### Basic maintenance and support expectations
 * Require a post installation meeting where project manager can explain and discuss the installation with CIO, and other IT employees.
@@ -113,8 +106,10 @@ RFP Wireless Infrastructure
 * Company executives are concerned a wireless network will 'produce poor results' compared to the wired network.
 
 #### WPA3
-* Must implement WPA3 security with 802.1X authentication on the new wireless network.
-* RADIUS
+* Must implement WPA3 enterprise grade security with 802.1X authentication for all users on the new wireless network.
+* Must use a RADIUS server for authentication and authorization, via integration with the 'xcomx' ADDS domain.
+* Communications between the RADIUS server(s) and wireless infrastructure must be encrypted.
+* The final design must support at least 1256 simultaneous users, and at least 3000 devices.
 
 #### Guest network isolation
 * A subnet for guest users will not be necessary.
@@ -124,6 +119,7 @@ RFP Wireless Infrastructure
 #### VLAN integration
 * Multiple network segmentations exist seperating departments via VLANs.
 * The new wireless network configuration must be integrated with the company's current VLAN configuration.
+* VLAN assignment must be supported by the policies implemented on the RADIUS server.
 
 #### Support for the expected number of users and devices
 * The new network must be able to support all 1256 employees using internet services simultaneously.
@@ -140,6 +136,16 @@ RFP Wireless Infrastructure
 * Must be scalable, due to planned expansions.
 
 ### 5. Deliverables
+
+#### Documentation
+
+##### List of required documents.
+* A comprehensive document titled 'Installation, Configuration, and Integration' covering the entire process of installation, configuration, and integration of all devices with the current wired network.
+* A comprehensive document titled 'Basic Maintenance' covering expected basic maintenance is required.
+* A comprehensive document titled 'Support Expectations' covering future support expectations is required.
+* A comprehensive document titled 'Testing & Validation' covering troubleshooting, testing and validation results is required.
+* A comprehensive document titled 'Site Survey'. For more details, see '5.Deliverables > Site survey report'
+* A comprehensive document titles 'Administrator guide' covering changes and new expectations of the wireless network to the network administrator.
 
 #### Site survey report
 The site survey report must include the following:
@@ -163,11 +169,12 @@ The site survey report must include the following:
 * **Xcompanyx** requires the creation and submission of a network diagram, showcasing the details of the wired and wireless network.
 
 #### Test results
-* All test results are to be documented and submitted within the 'Testing & Validation' document.
+* All test results are to be documented and submitted within the 'Testing & Validation' document. 
 
 #### Administrator guide
 * A document titled 'Administrator guide' must be delivered explaining the changes which have occurred since the integration.
 * This document explains the changes and new expectations to the network administrator.
+* This document should include but is not limited too WPA3, 802.1x authentication, RADIUS server, access points, integration, wireless coverage statistics,
 
 #### Support plan
 * A support plan document must be submitted detailing post-launch maintenance, service level agreements and any new technical requirements.
@@ -201,10 +208,10 @@ The site survey report must include the following:
 | Catagory | Weight |
 | --- | --- |
 | Design quality | 25% |
-| Security | 20% |
+| Security | 25% |
 | Implementation plan | 15% |
 | Vendor experience | 10% |
-| Scalability| 15% |
+| Scalability| 10% |
 | Pricing | 15% |
 | Total | 100% |
 
@@ -214,11 +221,31 @@ The site survey report must include the following:
 * Format: Hardcopy sent by mail
 Contact Information: 
 * **Xcompanyx**
+
+  Mailing Address: 59 Grey Road, LA
+
+* CEO Jack Torrance
+
+  Email: jtorrance@xcompanyx.com
+
+  Phone: xxx.xxx.xxxx
+* CFO Louis Creed
+
+  Email: lcreed@xcompanyx.com
+
+  Phone: xxx.xxx.xxxx
+* COO Randall Flagg
+
+  Email: rflagg@xcompanyx.com
+
+  Phone: xxx.xxx.xxxx
 * CIO Jonathan Braun
-* Email: jbraun@xcompanyx.com
-* Phone: xxx.xxx.xxxx
-* Mailing Address: 422 Blazeit Road, LA
-All questions must be to submitted to the above email by September 15, 2026
+
+  Email: jbraun@xcompanyx.com
+
+  Phone: xxx.xxx.xxxx
+
+All submissions must be to submitted by September 15, 2026
 
 #### Late-submission policy
 * Proposals received after the submission deadline will be considered late and may be disqualified.
@@ -241,11 +268,9 @@ All questions must be to submitted to the above email by September 15, 2026
 * 3 years post completion date.
 
 Optional renewal
-
 * Up to two additional years.
 
 Termination
-
 * **Xcompanyx** may terminate the contract within 90 days' written notice.
 
 
