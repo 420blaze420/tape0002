@@ -22,6 +22,9 @@ RFP Wireless Infrastructure
   * Marketing & public relations
   * Logistics & shipping
   * Facility maintenance
+
+ <img width="2133" height="1200" alt="Xcompanyx CAMPUS" src="https://github.com/user-attachments/assets/8f2e137e-6799-41d4-ad55-e19eef83bb25" />
+
   
 * **Xcompanyx** needs a new wireless network that provides reliable coverage, strong security, modern performance, centralized management, and support for future growth.
 
