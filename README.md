@@ -6,9 +6,9 @@ RFP Wireless Infrastructure
 ### 1. Organization and Project Background
 
 #### What the organization does and who it serves
-* **Xcompanyx** is a specialized art storage and brokerage firm that integrates secure, climate-controlled warehousing with full-service commercial sales support. We work with collectors, galleries, and investors, to safely store high-value artworks while also facilitating private viewings, and managing sales. By combining reliable storage with active market support, **XcompanyX** provides a streamlined solution for clients looking to both protect and manage the value of their art collections.
+* **Xcompanyx** is a specialized art storage and brokerage firm that integrates secure, climate-controlled warehousing with full-service commercial sales support. We work with collectors, galleries, and investors, to safely store high-value artworks while also facilitating private viewings, and managing sales. By combining reliable storage with active market support, **Xcompanyx** provides a streamlined solution for clients looking to both protect and manage the value of their art collections.
 
-* **Xcompanyx** has 13 seperate departments.
+* **Xcompanyx** has 13 separate departments.
   * Executive
   * Sales
   * Customer service
@@ -27,12 +27,12 @@ RFP Wireless Infrastructure
 
 #### The size of the organization and number of users
 * 1442 employees, 1256 employees using internet services, 86 IT employees.
-* Employees require network access across the campus to support daily business operations, including but not limited too asset management and client service.
+* Employees require network access across the campus to support daily business operations, including but not limited to asset management and client service.
 * Some employees need full internet access, while others might only need access to internal applications such as POS or shared terminals.
-* The design must support role based access, and a seperation of departments in support of protecting sensitive client and inventory data.
+* The design must support role based access, and a separation of departments in support of protecting sensitive client and inventory data.
 
 #### Why the new wireless network is required
-* **Xcompanyx** has expanded its campus, and employees are spread far and wide across the company campus. A new wireless network would support troubleshooting, testing, and deployment of internal network configurations across the campus. The ability to connect to a wireless network anywhere accross the campus will increase efficiency and lower down time, in regard to troubleshooting, testing, and new configuration deployments.
+* **Xcompanyx** has expanded its campus, and employees are spread far and wide across the company campus. A new wireless network would support troubleshooting, testing, and deployment of internal network configurations across the campus. The ability to connect to a wireless network anywhere across the campus will increase efficiency and lower down time, in regard to troubleshooting, testing, and new configuration deployments.
 
 #### Current problems or limitations
 * Due to the lack of a wireless network, **Xcompanyx** IT employees must use a physical ethernet connection for troubleshooting, testing, and deploying. Since the expansion of our company campus, IT employees have been limited in their abilities to troubleshoot, test, and deploy internal network configurations around the expansion. 
@@ -54,7 +54,7 @@ RFP Wireless Infrastructure
 * 
 
 #### Centralized monitoring and management
-* **XCompanyX** administration is done through the use of an ADDS deployed on a domain controller.
+* **XCompanyx** administration is done through the use of an ADDS deployed on a domain controller.
 * The new wireless network must support centralized administration through the use of an ADDS on the **Xcompanyx** domain 'xcomx'.
 
 #### Support for future growth
@@ -73,9 +73,9 @@ RFP Wireless Infrastructure
 * Expected outdoor coverage: 95%
 
 #### Installation and configuration
-* **Xcompanyx** can spare a maximum of 4 IT employees to help the project manager make determinations regarding the wireless network and complete configurations.
+* **Xcompanyx** can spare a maximum of 4 IT employees to assist the project manager when making determinations regarding the wireless network and complete configurations.
 * The installation and configurations must **NOT** be done by **Xcompanyx** IT employees.
-* IT employees designated to 'help' are there to support an efficient deployment and integration of the new wired network, **NOT** do the project managers work for them.
+* IT employees assigned to support the project manager, are responsible for facilitating and assisting the efficient deployment and integration of the new wired network, not for performing duties of the project manager.
   
 #### Integration with the existing wired network
 * The new wireless network must be integrated with the current wired network, supporting communication between wired and wireless users.
@@ -94,8 +94,8 @@ RFP Wireless Infrastructure
 * Documentations must be completed on the comprehensive 'Testing & Validation' document/form.
 
 #### Basic maintenance and support expectations
-* Require a post installation meeting where project manager can explain and discuss the installation with CIO, and other IT employees.
-* Project manager must complete and submit a document covering expected maintenance, and a separate document covering expectations for future support.
+* Require a post installation meeting where the project manager can explain and discuss the installation with CIO, and other IT employees.
+* The project manager must complete and submit a document covering expected maintenance, and a separate document covering expectations for future support.
 * **Xcompanyx** intends on future expansions to the company and company campus and expects a configuration that supports user and geographical growth.
 
 ### 4. Technical Requirements
@@ -103,7 +103,6 @@ RFP Wireless Infrastructure
 #### Wi-Fi 6 or newer
 * **Xcompanyx** at minimum requires a wireless network that supports Wi-Fi 6 technology.
 * Typical business operations require very fast speeds to ensure customer satisfaction.
-* Company executives are concerned a wireless network will 'produce poor results' compared to the wired network.
 
 #### WPA3
 * Must implement WPA3 enterprise grade security with 802.1X authentication for all users on the new wireless network.
@@ -117,7 +116,7 @@ RFP Wireless Infrastructure
 * No guest users will be permitted on the network. 
 
 #### VLAN integration
-* Multiple network segmentations exist seperating departments via VLANs.
+* Multiple network segmentations exist separating departments via VLANs.
 * The new wireless network configuration must be integrated with the company's current VLAN configuration.
 * VLAN assignment must be supported by the policies implemented on the RADIUS server.
 
@@ -145,7 +144,7 @@ RFP Wireless Infrastructure
 * A comprehensive document titled 'Support Expectations' covering future support expectations is required.
 * A comprehensive document titled 'Testing & Validation' covering troubleshooting, testing and validation results is required.
 * A comprehensive document titled 'Site Survey'. For more details, see '5.Deliverables > Site survey report'
-* A comprehensive document titles 'Administrator guide' covering changes and new expectations of the wireless network to the network administrator.
+* A comprehensive document titled 'Administrator guide' covering changes and new expectations of the wireless network to the network administrator.
 
 #### Site survey report
 The site survey report must include the following:
@@ -162,7 +161,7 @@ The site survey report must include the following:
 
 #### Installed and configured access points
 * Access points will be installed in designated areas around the campus to support 100% indoor coverage and at minimum 95% outdoor coverage.
-* Designated areas will be determined through the use a signal strength heat map under the project managers discretion.
+* Designated areas will be determined through the use of a signal strength heat map under the project managers discretion.
 * Access points will be placed in a manner of which increases signal strength in low signal strength areas.
 
 #### Network diagram
@@ -194,7 +193,7 @@ The site survey report must include the following:
 * November 1, 2026 - January 15, 2027
 
 #### Project completion date
-* January 16, 202
+* January 16, 2027
 
 #### Initial costs 
 * Approximately $343,000
@@ -205,9 +204,9 @@ The site survey report must include the following:
 ### 7. Evaluation Criteria
 
 #### Create a weighted evaluation table that totals 100 percent
-| Catagory | Weight |
+| Category | Weight |
 | --- | --- |
-| Design quality | 25% |
+| Technical Solution | 25% |
 | Security | 25% |
 | Implementation plan | 15% |
 | Vendor experience | 10% |
@@ -218,44 +217,30 @@ The site survey report must include the following:
 ### 8. Submission and Terms
 
 #### Submission format and contact information
-* Format: Hardcopy sent by mail
+* Format: Hardcopy via mail services.
+
+* Submissions may be sent via mail.
+
+* Questions may be submitted via mail or our public email.
+
+* All submissions must be to submitted by September 15, 2026
+
 Contact Information: 
 * **Xcompanyx**
 
   Mailing Address: 59 Grey Road, LA
 
-* CEO Jack Torrance
-
-  Email: jtorrance@xcompanyx.com
-
-  Phone: xxx.xxx.xxxx
-* CFO Louis Creed
-
-  Email: lcreed@xcompanyx.com
-
-  Phone: xxx.xxx.xxxx
-* COO Randall Flagg
-
-  Email: rflagg@xcompanyx.com
-
-  Phone: xxx.xxx.xxxx
-* CIO Jonathan Braun
-
-  Email: jbraun@xcompanyx.com
-
-  Phone: xxx.xxx.xxxx
-
-All submissions must be to submitted by September 15, 2026
-
+  Company Email: xmox@xcompanyx.com
+  
 #### Late-submission policy
 * Proposals received after the submission deadline will be considered late and may be disqualified.
 
 #### Confidentiality
-* All information in this RFP and ensuing communications is confidential and intended for the recipient vendor only. 
+* All information in this RFP and further communications is confidential and intended for the recipient vendor only. 
 * Breach of confidentiality may result in disqualification from bidding, and/or legal action.
 
 #### Pre-implementation support expectations
-* Vendor will provide and assign **Xcompanyx** a project manager
+* Vendor will provide and assign **Xcompanyx** a project manager.
 
 #### Post-implementation support expectations
 * Critical issues: 24x7 support.
@@ -271,7 +256,6 @@ Optional renewal
 * Up to two additional years.
 
 Termination
-* **Xcompanyx** may terminate the contract within 90 days' written notice.
-
+* **Xcompanyx** may terminate the contract within 90 days written notice.
 
 
