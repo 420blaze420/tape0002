@@ -180,26 +180,14 @@ The site survey report must include the following:
 
 ### 6. Timeline and Pricing
 
-#### Proposal deadline
-* September 15, 2026
-
-#### Vendor selection date
-* October 10, 2026
-
-#### Project start date
-* November 1, 2026
-
-#### Installation and testing period
-* November 1, 2026 - January 15, 2027
-
-#### Project completion date
-* January 16, 2027
-
-#### Initial costs 
-* Approximately $343,000
-
-#### Ongoing costs
-* Approximately $54,000
+| Proposal Deadline | September 15, 2026 |
+| --- | --- |
+| Vendor Selection Date | October 10, 2026 |
+| Project Start Date | November 1, 2026 |
+| Installation and Testing Period | November 1, 2026 - January 15, 2027 |
+| Project Completion Date | January 16, 2027 |
+| Initial Costs | Approx. $343,000.00 |
+| Ongoing Costs | Approx. $54,000.00 |
 
 ### 7. Evaluation Criteria
 
